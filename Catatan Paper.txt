@@ -1,0 +1,5 @@
+1. Novelty Kebaruan Menyelesaikan Permasalahan yang ada
+2. Kalimat yang memberikan kontribusi kita itu di pertegas lagi
+3. Kurang However atau alasan yang diperbaikinya
+4. Ada diferensiasi (ada perbedaan itu bisa di showcase) Bab 1 - Bab 2
+5. Plot menggunakan basic LaTeX
