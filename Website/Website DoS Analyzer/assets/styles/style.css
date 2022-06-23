@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+
+.swal2-popup{
+  font-size: 2rem;
+}
+
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #6a097d;
+}
+
+h3 {
+  color: #6a097d;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+nav a:hover {
+  font-weight: bold;
+}
+
+.kuesionercard {
+  background-color: #ecf4f5;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.judul {
+  font-weight: bold;
+}
+
+.img-content {
+  width: 200px;
+}
+
+.isian {
+  font-weight: bold;
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.inputjrm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  background-color: rgb(221, 216, 216);
+}
+
+.deskripsi {
+  width: 50%;
+  height: 20%;
+  float: left;
+  padding: 5px;
+}
+
+.img-content {
+  float: left;
+  padding: 5px;
+}
+
+footer {
+  padding: 5px;
+  color: white;
+  background-color: #005e6a;
+  text-align: center;
+  font-weight: bold;
+}
+
+.img-footer {
+  color: #fff;
+}
+
+.footer-atas {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.footer-bawah {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.deskripsi {
+  text-align: start;
+  font-weight: lighter;
+  padding-right: 0px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.jumbotron {
+  font-family: "Quicksand";
+  font-size: 30px;
+  padding: 150px;
+  background-image: url(..//image/gedung.png);
+  background-size: cover;
+  height: fit-content !important;
+
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #017e8e;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+#content {
+  float: left;
+  padding-left: 5rem;
+}
+
+aside {
+  float: right;
+  width: 35%;
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 992px */
+@media screen and (max-width: 992px) {
+}
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 600px */
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+header {
+  display: inline;
+  height: fit-content !important;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: linear-gradient(#005e6a);
+}
+section#comments {
+  background-color: #eeeeee;
+  height: fit-content;
+  font-family: "Quicksand", sans-serif;
+}
+
+section#comments #comments-card {
+  width: 50%;
+  margin: 50px auto 0 auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+section#comments fieldset {
+  border: medium none;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 120%;
+  height: 120%;
+}
+
+section#comments #comments-card input,
+section#comments #comments-card textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+section#comments #comments-card textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#comments-card-submit {
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  border: none;
+  background: #22a026;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#comments-card-submit:hover {
+  background: #00ff08;
+  transition: background-color 0.3s ease-in-out;
+}
+
+section#comments #comments-card input:focus,
+section#comments #comments-card textarea:focus {
+  outline: none;
+}
+.avatar,
+.nama,
+.tanggal {
+  display: inline;
+}
+
+.label {
+  font-family: "Quicksand", sans-serif;
+}
+
+.tanggal {
+  color: rgb(124, 107, 107);
+}
+
+.avatar {
+  max-width: 40px;
+  float: left;
+  margin-right: 15px;
+}
+
+.comments-card-history {
+  width: 60%;
+  margin: 100px auto 0 auto;
+  padding-bottom: 100px;
+}

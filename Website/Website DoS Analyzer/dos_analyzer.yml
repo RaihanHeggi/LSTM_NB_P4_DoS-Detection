@@ -1,0 +1,33 @@
+name: dos_analyzer
+
+channels:
+- conda-forge
+- anaconda 
+
+dependencies:
+# Essential
+- python
+- pip
+- ipython
+- tqdm
+- joblib
+# Data Science
+- numpy
+- scipy
+- pandas
+# Machine Learning
+- scikit-learn
+# Deep Learning
+- tensorflow
+- tensorflow-estimator
+# REST API
+- requests
+- flask
+- flask-cors
+- python-dotenv
+- pip:
+  # Machine Learning
+  - xgboost
+  - scikit-optimize
+  - jcopml
+  - luwiji
