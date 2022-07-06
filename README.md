@@ -42,6 +42,10 @@ Dibangun menggunakan Python Scapy untuk melakukan sniffing, kemudian menggunakan
 2. Melakukan Studi Mengenai P4 Mendalam
 3. Finalisasi Aplikasi Website dan Sistem Realtime
 
+## Saran Pengembangan
+1. Mengoneksikan dengan Controller Onos, saat ini masih terkendala karena bingung untuk melakukan pembuatan pipeconf onos
+2. Dataset untuk pengujian P4-Mininet mungkin bisa lebih sophisticated lagi dengan tools lebih baik
+
 ## Tools Digunakan 
 1. Ubuntu 18.04
 2. Virtual Machine 
@@ -50,6 +54,10 @@ Dibangun menggunakan Python Scapy untuk melakukan sniffing, kemudian menggunakan
 5. P4 Simulation Model (Behavioral Model)
 6. Openflow Switch
 7. Pemrograman menggunakan Bahasa Python
+
+## Instalasi VM-Ubuntu 18.04 untuk simulasi P4
+Untuk menyiapkan VM ada baiknya langsung menuju ke guide yang ada pada kolom Rekap ada penjelasan lengkap atau dapat langsung menuju ke https://github.com/jafingerhut/p4-guide/blob/master/bin/README-install-troubleshooting.md, pada github tersebut disediakan ova dan shell script untuk menginstall kebutuhan simulasi P4, untuk tugas akhir ini saya memilih untuk menyiapkan sebuah VM kosong dengan basis ubuntu 18.04 kemudian menginstall dengan shell script yang disediakan, salah satu trouble yang dihadapi adalah adanya dua buah python, oleh karena itu pastikan untuk mengubah python yang ada dengan python3, karena shell scriptnya menginstall dengan dependencies python3, permasalahan ini pernah saya up di https://github.com/p4lang/tutorials/issues/462.
+
 
 ## Kontributor 
 1. Sya Raihan Heggi
