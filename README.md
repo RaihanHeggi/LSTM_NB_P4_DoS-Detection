@@ -6,16 +6,21 @@ dengan dibuatnya sistem pendeteksian ini diharapkan dapat mencegah terjadinya ke
 
 ## Progress Saat Ini
 1. Membuat Proposal dan Studi Literatur
-2. Melakukan Pengumpulan 2 Dataset Latih Utama (ORG dan Deep Learning SDN Dataset)
+2. Melakukan Pengumpulan 3 Dataset Latih Utama (NSL-KDD, CICIDS2017, dan Deep Learning SDN-DL Dataset)
 3. Melakukan pre-processing (ada beberapa bagian perlu diperbaiki)
 4. Membangun Modul Normalisasi (dipilih metode apa tadinya dan di putuskan menggunakan **Min Max Scalling**)
 5. Membangun beberapa model pembanding untuk pengujian 
+6. Menulis Publikasi (On-Review)
+7. Menulis Laporan Akhir
+8. Membuat Rekap Pengujian
+9. Melakukan Percobaan
+10. Menyimpan CSV hasil sniffing paket dari simulasi P4-Mininet
+11. Menambah Topologi dan File Berkaitan dengan simulasi ke repository
 
 ## On Going 
-1. Melakukan Studi Mendalam Mengenai Machine Learning 
-2. Melakukan Studi Mengenai P4
-3. Melakukan Uji coba dengan dataset (perlu mencari dataset lain)
-4. Menuliskan hasil pengujian yang dilakukan 
+1. Melakukan Studi Mendalam Mengenai Machine Learning Mendalam
+2. Melakukan Studi Mengenai P4 Mendalam
+3. Finalisasi Aplikasi Website dan Sistem Realtime
 
 ## Tools Digunakan 
 1. Ubuntu 18.04
