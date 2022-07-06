@@ -6,7 +6,7 @@
     <!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
     <title>Belajar Flask API</title>
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='adminlte.css') }}">
 
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -15,14 +15,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container">
-    <form action="{{ url_for('upload_file') }}" method="POST" role="form" class="form-horizontal" enctype=multipart/form-data>
-      <div class="form-group">
-        <label for="UploadFile">Example file input</label>
-        <input type="file" class="form-control-file" id="UploadFile" name="file">
+<section class="content">
+  <div class="container-fluid">
+      <div class="card">
+          <div class="card-header">
+            <h2>LSTM-NB : DoS Analyzer </h2>
+          </div>
+          <div class="card-body">
+              <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+                  <div class="form-group">
+                    <label>Silahkan Masukan Dataset Network Yang Sudah Disiapkan</label>
+                  </div>
+                  <div class="input-group mb-4">
+                      <input type="file" name="file" style="height: auto;" class="form-control" placeholder="Masukan Dataset" aria-label="Masukan Dataset" aria-describedby="button-addon2">
+                      <button class="btn btn-primary" type="submit" id="button-addon2">Import</button>
+                  </div>
+              </form>
+          </div>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
   </div>
+</section>
+
 </body>
 </html>

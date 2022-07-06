@@ -25,7 +25,7 @@ def split_x_y(df):
 
 
 def convert_to_pandas(csv_file):
-    df = pd.read_csv(csv_file, sep=";")
+    df = pd.read_csv(csv_file, sep=",")
     df_akhir = pd.DataFrame()
     # Feature Selection
     df_akhir["src"] = df["src"]
@@ -71,6 +71,8 @@ def naive_bayes_module(nb_model, df):
     df = df[["protocol", "lstm_result_1", "lstm_result_2"]]
     predict = nb_model.predict(df)
     df["label"] = predict
+    df["label"] = df["label"].replace(0, "Normal")
+    df["label"] = df["label"].replace(1, "Intrusi")
     return df
 
 
