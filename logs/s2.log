@@ -1,5 +1,0 @@
-Calling target program-options parser
-[11:45:09.094] [bmv2] [D] [thread 4919] Set default default entry for table 'MyIngress.ipv4_lpm': MyIngress.drop - 
-Server listening on 0.0.0.0:50052
-[11:45:09.096] [bmv2] [I] [thread 4919] Starting Thrift server on port 9091
-[11:45:09.096] [bmv2] [I] [thread 4919] Thrift server was started
