@@ -1,8 +1,7 @@
 # Deteksi Serangan DoS Pada Jaringan SDN Berbasiskan P4 Programmable Dataplane 
 
 ## Penjelasan Mengenai Topik Tugas Akhir
-Pada Tugas Akhir ini akan dibuat sebuah sistem pendeteksian dini yang cerdas yang berbasiskan Machine Learning, dalam hal ini akan menggunakan Algoritma LSTM dan Naive Bayes, 
-dengan dibuatnya sistem pendeteksian ini diharapkan dapat mencegah terjadinya kerusakan lebih lanjut akibat serangan DoS pada Jaringan SDN.
+Pada Tugas Akhir ini akan dibuat sebuah sistem pendeteksian dini yang cerdas yang berbasiskan Machine Learning, dalam hal ini akan menggunakan Algoritma LSTM dan Naive Bayes, dengan dibuatnya sistem pendeteksian ini diharapkan dapat mencegah terjadinya kerusakan lebih lanjut akibat serangan DoS pada Jaringan SDN.
 
 ## Hasil Pengujian
 Dari pengujian yang dilakukan pada dataset didapatkan hasil pada CICIDS2017 didapatkan akurasi sebesar 97% dan FNR 2%, sementara pada NSL-KDD memiliki akurasi hingga 98.85% dengan FNR 1%, penggunaan dataset publik ini berkenaan dengan perbandingkan kuantitatif dengan pengujian sebelumnya dan akurasi yang dihasilkan lebih baik dari sistem selain itu nilai FNRnya cukup rendah, selain itu dilakukan pengujian terhadap dataset SDN-DL dihasilkan akurasi 89% dengan FNR 13%, hasilnya kurang baik dari penelitian sebelumnya namun memiliki effort untuk mencari fitur dan juga mengembangkan sistem dengan akurasi diatas 88% dan tidak terjadi overfitting, dan bila dibandingkan dengan algoritma pengujian lainnya hasil yang dicapai lebih baik.
@@ -36,11 +35,12 @@ Dibangun menggunakan Python Scapy untuk melakukan sniffing, kemudian menggunakan
 9. Melakukan Percobaan
 10. Menyimpan CSV hasil sniffing paket dari simulasi P4-Mininet
 11. Menambah Topologi dan File Berkaitan dengan simulasi ke repository
+12. Melakukan Studi Mendalam Mengenai Machine Learning Mendalam
+13. Melakukan Studi Mengenai P4 Mendalam
+14. Finalisasi Aplikasi Website dan Sistem Realtime
 
 ## On Going 
-1. Melakukan Studi Mendalam Mengenai Machine Learning Mendalam
-2. Melakukan Studi Mengenai P4 Mendalam
-3. Finalisasi Aplikasi Website dan Sistem Realtime
+1. **Pengerjaan Sudah Selesai dan Sudah Dibuat Paper Ilmiah**
 
 ## Saran Pengembangan
 1. Mengoneksikan dengan Controller Onos, saat ini masih terkendala karena bingung untuk melakukan pembuatan pipeconf onos
