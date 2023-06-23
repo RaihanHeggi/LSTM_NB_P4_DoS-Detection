@@ -1,5 +1,8 @@
 # Deteksi Serangan DoS Pada Jaringan SDN Berbasiskan P4 Programmable Dataplane 
 
+## Paper Link 
+Tugas Akhir ini Sudah Dijadikan Paper dan di presentasikan pada ICACNIS 2022 Untuk Linknya Dapat Diakses Pada Tautan Berikut Ini [Paper Link](10.1109/ICACNIS57039.2022.10055615) 
+
 ## Penjelasan Mengenai Topik Tugas Akhir
 Pada Tugas Akhir ini akan dibuat sebuah sistem pendeteksian dini yang cerdas yang berbasiskan Machine Learning, dalam hal ini akan menggunakan Algoritma LSTM dan Naive Bayes, dengan dibuatnya sistem pendeteksian ini diharapkan dapat mencegah terjadinya kerusakan lebih lanjut akibat serangan DoS pada Jaringan SDN.
 
